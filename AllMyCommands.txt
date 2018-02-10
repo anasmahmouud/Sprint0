@@ -1,0 +1,21 @@
+- $ git init
+- $ git add GettingStarted.txt
+- $ git add Distributed.txt
+- $ git add GitBranching.txt
+- $ git rm --cached GitBranching.txt
+- $ git add GitBranching.txt
+- $ git config --global user.email "anas_97@live.com"
+- $ git config --global user.name "Anas"
+- $ git commit -m "Sprint0"
+- $ git remote add origin http://github.com/anasmahmouud/Sprint0.git
+- $ git push origin master
+- $ git branch -av
+- $ git branch ReadMe
+- $ git checkout ReadMe
+- $ git branch -av
+- $ git add README.md
+- $ git commit -m "Sprint0-1"
+- $ git checkout master
+- $ git merge ReadMe
+- $ git add AllMyCommands.txt
+- $ git commint -m "Sprint0-2"
